@@ -91,12 +91,16 @@ nav a {
 	text-decoration: none;
 	color: black;
 	display: inline-block;
-	padding: 10px;
+	padding: 5px;
+	margin: 5px;
+
 }
 
 #splash {
-	margin: 30px;
+	margin: 10px;
 	width: 100%;
+	padding-bottom: 100px;
+	border-bottom: 1px solid black;
 }
 
 #splash h1{
@@ -163,6 +167,12 @@ nav a {
 	margin: 10px 100px;
 	bottom: -10px;
 	position: absolute;
+}
+
+#bottomWrapper {
+	border-bottom: 1px solid black;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
 }
 
 footer #contact {
