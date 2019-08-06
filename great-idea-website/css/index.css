@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .body {
+	position: relative;
 	width: 80%;
 	margin: 5%;
 }
@@ -121,35 +122,53 @@ nav a {
 	position: relative;
 }
 
+#tagline h1{
+	position: absolute;
+	top: -300px;
+}
+
 
 .sidebyside2 {
+	position: relative;
 	display: inline-block;
 	width: 45%; /*was 47% before changed body to 80%*/
 	padding: 0px;
 	margin: 0px 13px;
+	margin-top: 20px;
 }
 
+
 .sidebyside3 {
+	position: relative;
 	display: inline-block;
 	width: 29%; /*was 30% before changed body to 80%*/
 	padding: 0px;
-	margin: 13px;
-
+	margin: 20px 13px;
+	margin-top: 50px;
 }
 
-.middle-img {
+.wrapper .middle-img {
 	display: inline-block;
-	width: 19%;
+	width: 100%;
 	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 .button {
 	text-decoration: none;
 	border: 1px solid black;
 	color: black;
-	padding: 0px 30px;
+	padding: 10px 30px;
+	margin: 10px 100px;
+	bottom: -10px;
+	position: absolute;
 }
 
-footer {
-
+footer #contact {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	left: 100px;
+	margin: 100px;
 }
