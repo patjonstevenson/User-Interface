@@ -64,3 +64,92 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.body {
+	width: 80%;
+	margin: 5%;
+}
+
+header {
+	position: relative;
+	width: 100%;
+	text-align: justify;
+}
+
+header .logo {
+	display: inline-block;
+	position: absolute;
+	right: 10%;
+}
+
+header nav {
+	display: inline-block;
+	margin: 5%;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	padding: 10px;
+}
+
+#splash {
+	margin: 30px;
+	width: 100%;
+}
+
+#splash h1{
+	font-size: 5rem;
+	display: inline-block;
+	text-align: center;
+}
+#splash button {
+}
+
+.wrapper {
+	position: relative;
+	padding: 20px;
+	margin: 20px;
+	
+}
+
+.wrapper img{
+	width: 100%;
+}
+
+#tagline {
+	position: relative;
+}
+
+
+.sidebyside2 {
+	display: inline-block;
+	width: 45%; /*was 47% before changed body to 80%*/
+	padding: 0px;
+	margin: 0px 13px;
+}
+
+.sidebyside3 {
+	display: inline-block;
+	width: 29%; /*was 30% before changed body to 80%*/
+	padding: 0px;
+	margin: 13px;
+
+}
+
+.middle-img {
+	display: inline-block;
+	width: 19%;
+	margin-bottom: 10px;
+}
+
+.button {
+	text-decoration: none;
+	border: 1px solid black;
+	color: black;
+	padding: 0px 30px;
+}
+
+footer {
+
+}
